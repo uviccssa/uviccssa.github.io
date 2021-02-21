@@ -5,10 +5,13 @@
 # Header Menu
 menu:
   Home: /
-  Archives: archives
-  Categories: categories
-  Tags: tags
+  Announcement: announcement
+  Sponsor: sponsor
+  # Archives: archives
+  # Categories: categories
+  # Tags: tags
   About: about
+  Contact: contact
 rss: /atom.xml
 
 since: 2021
@@ -23,7 +26,7 @@ avatar:
   width: 124
   height: 124
   top: 0
-  url: css/images/mylogo.jpg
+  url: https://cdn.jsdelivr.net/gh/uviccssa/cdn/cropped-49813511_216270469309675_1942239955631734784_n-5.jpg
 
 
 # Homepage
@@ -33,12 +36,12 @@ home_background_image:
   enable: true
   mode: image
   rolling: true
-  url: [css/images/home-bg.jpg, css/images/sample.jpg, https://source.unsplash.com/collection/954550/1920x1080]
+  url: [https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_202101242154091.png, https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_20210124220005.png, https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_20210124215316.png,https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_202101242154093.png,https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_202101242200053.png,https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_20210124214844.png,https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_20210124215409.png]
 
 home_logo_image:
-  enable: false
+  enable: ture
   border: false
-  url: css/images/homelogo.jpg
+  url: https://cdn.jsdelivr.net/gh/uviccssa/cdn/微信图片_20210124221239.png
 
 
 # AboutPage background
