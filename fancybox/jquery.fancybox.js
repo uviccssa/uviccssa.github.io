@@ -236,6 +236,8 @@
 				return;
 			}
 
+			if ($(this).hasClass('nofancybox')) return; 
+
 			// Normalize group
 			if (!$.isArray(group)) {
 				group = isQuery(group) ? $(group).get() : [group];
@@ -251,7 +253,7 @@
 					rez,
 					hrefParts,
 					selector;
-
+				if ($(this).hasClass('nofancybox')) return; 
 				if ($.type(element) === "object") {
 					// Check if is DOM element
 					if (element.nodeType) {
